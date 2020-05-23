@@ -93,10 +93,8 @@
 .profil ul{
 
             text-align: right;
-            display:none;
         }
 
-        .profil img:hover .nique{
-
-            display:block;
-        }
+#textCo{
+    display:none;
+}
