@@ -90,11 +90,13 @@
             color: #FFFFFF;
         }
 
-        /* .profil ul{
-            visibility: hidden;
-        }
-        .profil ul svg:hover{
+.profil ul{
 
-            visibility: visible;
+            text-align: right;
+            display:none;
         }
-        Affichage lorsque le curseur et sur l'image (affichage des sous menu inscrption ... (ul li )) */
+
+        .profil img:hover .nique{
+
+            display:block;
+        }
