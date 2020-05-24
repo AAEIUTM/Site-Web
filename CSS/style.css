@@ -1,0 +1,120 @@
+        #menu {
+            position: fixed;
+            top: 95px;
+            left: 0;
+            width: 150px;
+            height: 100vh;
+            background: #1c1d22;
+            display:none;
+        }
+
+        #menu ul li a {
+            font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+            list-style-type: none;
+            visibility: visible;
+            box-sizing: border-box;
+            text-decoration: none;
+            outline: none;
+            font-weight: 600;
+            position: relative;
+            display: block;
+            padding: 1.14em 2.5em 1em 1.5em;
+            color: #bdbdbd;
+            transition: color 0.1s;
+        }
+
+        .testul {
+            font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+            color: #cecece;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            overflow-y: scroll;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            visibility: visible;
+            position: absolute;
+            bottom: 0;
+            overflow: hidden;
+        }
+
+        body {
+            font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+            overflow: hidden;
+            margin: 0;
+            color: #cecece;
+            background: #2a2b30;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 95px;
+            text-align: center;
+            color: #9192a3;
+            background: #1c1d22;
+        }
+
+        .conteneur {
+            overflow-y: auto;
+            height: 100vh;
+        }
+
+        .conteneur img {
+            height: 50px;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+
+        div .profil {
+            text-align: right;
+            position: absolute;
+            right: 0;
+            height: 100px;
+            margin: 0;
+            z-index: 10;
+            padding-top: 12px;
+            padding-right: 65px;
+        }
+
+        .profil li{
+            list-style-type: none;
+        }
+
+        .profil a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+.profil ul{
+
+            text-align: right;
+            position: absolute;
+            margin-top:0;
+            top:12px;
+            right:135px;
+            white-space: nowrap;
+        }
+
+
+.flecheMenu{    transform-origin: 10% 60%;
+
+    transition: all 0.4s ease;
+}
+.menu img:active{
+    transform: rotateZ(-180deg);
+}
+
+header .menu img{
+    position: absolute;
+    left:0;
+    margin-top:12px;
+    margin-left:65px;
+}
