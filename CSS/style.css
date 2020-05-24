@@ -130,3 +130,19 @@
             left: 148px;
             height: inherit;
         }
+        
+        .contenuouvert {
+            top: 90px;
+            left: 160px;
+            display: block;
+            position: relative;
+            text-align: justify;
+        }
+        
+        .contenufermer {
+            top: 90px;
+            left: 10px;
+            display: block;
+            position: relative;
+            text-align: justify;
+        }
