@@ -15,3 +15,4 @@ function affProfile() {
       x.style.display = "none";
     }
   } 
+

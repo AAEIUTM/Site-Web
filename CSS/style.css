@@ -70,6 +70,7 @@
         .conteneur img {
             height: 50px;
             padding-top: 10px;
+            cursor: pointer;
         }
 
         div .profil {
@@ -80,7 +81,7 @@
             margin: 0;
             z-index: 10;
             padding-top: 12px;
-            padding-right: 30px;
+            padding-right: 65px;
         }
 
         .profil li{
@@ -97,20 +98,23 @@
             text-align: right;
             position: absolute;
             margin-top:0;
-            top:15px;
-            right:100px;
+            top:12px;
+            right:135px;
             white-space: nowrap;
         }
 
 
-.flecheMenu{    transform-origin: 50% 50%;
-    transform: rotateY( 180deg );
-    -webkit-transform:rotate(180deg);
-    -moz-transform:rotate(180deg); 
+.flecheMenu{    transform-origin: 10% 60%;
+
+    transition: all 0.4s ease;
 }
+.menu img:active{
+    transform: rotateZ(-180deg);
+}
+
 header .menu img{
     position: absolute;
     left:0;
-    margin-top:21px;
-    margin-left:55px;
+    margin-top:12px;
+    margin-left:65px;
 }
