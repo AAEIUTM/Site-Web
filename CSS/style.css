@@ -5,9 +5,9 @@
             width: 150px;
             height: 100vh;
             background: #1c1d22;
-            display:none;
+            display: none;
         }
-
+        
         #menu ul li a {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             list-style-type: none;
@@ -22,7 +22,7 @@
             color: #bdbdbd;
             transition: color 0.1s;
         }
-
+        
         .testul {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             color: #cecece;
@@ -42,7 +42,7 @@
             bottom: 0;
             overflow: hidden;
         }
-
+        
         body {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             overflow: hidden;
@@ -50,7 +50,7 @@
             color: #cecece;
             background: #2a2b30;
         }
-
+        
         header {
             position: fixed;
             top: 0;
@@ -61,18 +61,24 @@
             color: #9192a3;
             background: #1c1d22;
         }
-
+        
         .conteneur {
             overflow-y: auto;
             height: 100vh;
         }
-
+        
         .conteneur img {
             height: 50px;
             padding-top: 10px;
             cursor: pointer;
         }
-
+        
+        .conteneur #banner {
+            height: 72px;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+        
         div .profil {
             text-align: right;
             position: absolute;
@@ -83,38 +89,37 @@
             padding-top: 12px;
             padding-right: 65px;
         }
-
-        .profil li{
+        
+        .profil li {
             list-style-type: none;
         }
-
-        .profil a{
+        
+        .profil a {
             text-decoration: none;
             color: #FFFFFF;
         }
-
-.profil ul{
-
+        
+        .profil ul {
             text-align: right;
             position: absolute;
-            margin-top:0;
-            top:12px;
-            right:135px;
+            margin-top: 0;
+            top: 12px;
+            right: 135px;
             white-space: nowrap;
         }
-
-
-.flecheMenu{    transform-origin: 10% 60%;
-
-    transition: all 0.4s ease;
-}
-.menu img:active{
-    transform: rotateZ(-180deg);
-}
-
-header .menu img{
-    position: absolute;
-    left:0;
-    margin-top:12px;
-    margin-left:65px;
-}
+        
+        .flecheMenu {
+            transform-origin: 10% 60%;
+            transition: all 0.4s ease;
+        }
+        
+        .menu img:active {
+            transform: rotateZ(-180deg);
+        }
+        
+        header .menu img {
+            position: absolute;
+            left: 0;
+            margin-top: 12px;
+            margin-left: 65px;
+        }
