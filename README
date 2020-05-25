@@ -1,2 +1,8 @@
 Page de l'Association des Anciens Élèves de l'École de l'IUT de Metz
 (ou A.A.E.I.U.T.M.)
+
+Version actuelle: v.05.25.23 :
+-Ajout d'une page inscription
+-Ajout d'une page connection
+-Version affichée dans about.html ainsi que dans ce readme
+-Fixes du menu
