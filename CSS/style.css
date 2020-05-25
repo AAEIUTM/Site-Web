@@ -137,10 +137,7 @@
             display: block;
             position: relative;
             text-align: justify;
-<<<<<<< HEAD
             z-index: -1;
-=======
->>>>>>> e6f7734e229c2fa6ca77aeebd2182cdc53e545eb
         }
         
         .contenufermer {
@@ -149,7 +146,6 @@
             display: block;
             position: relative;
             text-align: justify;
-<<<<<<< HEAD
             z-index: -1;
         }
         
@@ -221,6 +217,4 @@
         .form-container .btn:hover,
         .open-button:hover {
             opacity: 1;
-=======
->>>>>>> e6f7734e229c2fa6ca77aeebd2182cdc53e545eb
         }
