@@ -9,12 +9,16 @@ function affProfile() {
 
 function affMenu() {
     var x = document.getElementById("menu");
-    var element = document.getElementById("contenu");
     if (x.style.display === "none") {
         x.style.display = "block";
+        document.getElementById("fleche").src = "medias/images/fleche.png"
+        document.getElementById("contenu").className = "contenuouvert"
     } else {
         x.style.display = "none";
+        document.getElementById("fleche").src = "medias/images/fleche1.png"
+        document.getElementById("contenu").className = "contenufermer"
     }
+
 }
 
 function openForm() {

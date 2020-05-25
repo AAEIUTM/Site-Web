@@ -7,7 +7,7 @@
             background: #1c1d22;
             display: none;
         }
-        
+
         #menu ul li a {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             list-style-type: none;
@@ -22,7 +22,7 @@
             color: #bdbdbd;
             transition: color 0.1s;
         }
-        
+
         .testul {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             color: #cecece;
@@ -42,7 +42,7 @@
             bottom: 0;
             overflow: hidden;
         }
-        
+
         body {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             overflow: hidden;
@@ -50,7 +50,7 @@
             color: #cecece;
             background: #2a2b30;
         }
-        
+
         header {
             position: fixed;
             top: 0;
@@ -61,24 +61,24 @@
             color: #9192a3;
             background: #1c1d22;
         }
-        
+
         .conteneur {
             overflow-y: auto;
             height: 100vh;
         }
-        
+
         .conteneur img {
             height: 50px;
             padding-top: 10px;
             cursor: pointer;
         }
-        
+
         .conteneur #banner {
             height: 72px;
             padding-top: 10px;
             cursor: pointer;
         }
-        
+
         div .profil {
             text-align: right;
             position: absolute;
@@ -89,16 +89,16 @@
             padding-top: 12px;
             padding-right: 65px;
         }
-        
+
         .profil li {
             list-style-type: none;
         }
-        
+
         .profil a {
             text-decoration: none;
             color: #FFFFFF;
         }
-        
+
         .profil ul {
             text-align: right;
             position: absolute;
@@ -107,30 +107,26 @@
             right: 135px;
             white-space: nowrap;
         }
-        
         .flecheMenu {
             transform-origin: 10% 60%;
             transition: all 0.4s ease;
         }
-        
-        .menu img:active {
-            transform: rotateZ(-180deg);
-        }
-        
+
         header .menu img {
             position: absolute;
             left: 0;
             margin-top: 12px;
             margin-left: 65px;
         }
-        
+
         .ligneverticale {
             border-left: 2px solid white;
             position: absolute;
             left: 148px;
             height: inherit;
         }
-        
+
+        /* Juste a check left et width */
         .contenuouvert {
             top: 90px;
             left: 160px;
@@ -138,17 +134,19 @@
             position: relative;
             text-align: justify;
             z-index: -1;
+            width: 1700px;
         }
-        
+
         .contenufermer {
             top: 90px;
-            left: 10px;
+            left: 60px;
             display: block;
             position: relative;
             text-align: justify;
             z-index: -1;
+            width: 1800px;
         }
-        
+
         .open-button {
             background-color: #1c1d22;
             color: white;
@@ -162,7 +160,7 @@
             width: 280px;
         }
         /* The popup chat - hidden by default */
-        
+
         .chat-popup {
             display: none;
             position: fixed;
@@ -172,14 +170,14 @@
             z-index: 9;
         }
         /* Add styles to the form container */
-        
+
         .form-container {
             max-width: 300px;
             padding: 10px;
             background-color: #1c1d22;
         }
         /* Full-width textarea */
-        
+
         .form-container textarea {
             padding: 15px;
             margin: 5px 0 22px 0;
@@ -190,13 +188,13 @@
             width: 265px;
         }
         /* When the textarea gets focus, do something */
-        
+
         .form-container textarea:focus {
             background-color: #ddd;
             outline: none;
         }
         /* Set a style for the submit/send button */
-        
+
         .form-container .btn {
             background-color: #4CAF50;
             color: white;
@@ -208,69 +206,13 @@
             opacity: 0.8;
         }
         /* Add a red background color to the cancel button */
-        
+
         .form-container .cancel {
             background-color: red;
         }
         /* Add some hover effects to buttons */
-        
+
         .form-container .btn:hover,
         .open-button:hover {
             opacity: 1;
-        }
-        
-        .full-screen {
-            background-color: rgb(51, 51, 51);
-            width: 100vw;
-            height: 100vh;
-            color: white;
-            font-family: 'Arial Black';
-            text-align: center;
-        }
-        
-        .full-screen {
-            background-color: rgb(51, 51, 51);
-            width: 100vw;
-            height: 100vh;
-            color: white;
-            font-family: 'Arial Black';
-            text-align: center;
-        }
-        
-        .containererror {
-            padding-top: 4em;
-            width: 50%;
-            display: block;
-            margin: 0 auto;
-        }
-        
-        .error-num {
-            font-size: 8em;
-        }
-        
-        .eye {
-            background: #fff;
-            border-radius: 50%;
-            display: inline-block;
-            height: 100px;
-            position: relative;
-            width: 100px;
-        }
-        
-        .italic {
-            font-style: italic;
-        }
-        
-        p {
-            margin-bottom: 4em;
-        }
-        
-        a {
-            color: white;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-        
-        a:hover {
-            color: lightgray;
         }
