@@ -218,3 +218,59 @@
         .open-button:hover {
             opacity: 1;
         }
+        
+        .full-screen {
+            background-color: rgb(51, 51, 51);
+            width: 100vw;
+            height: 100vh;
+            color: white;
+            font-family: 'Arial Black';
+            text-align: center;
+        }
+        
+        .full-screen {
+            background-color: rgb(51, 51, 51);
+            width: 100vw;
+            height: 100vh;
+            color: white;
+            font-family: 'Arial Black';
+            text-align: center;
+        }
+        
+        .containererror {
+            padding-top: 4em;
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        .error-num {
+            font-size: 8em;
+        }
+        
+        .eye {
+            background: #fff;
+            border-radius: 50%;
+            display: inline-block;
+            height: 100px;
+            position: relative;
+            width: 100px;
+        }
+        
+        .italic {
+            font-style: italic;
+        }
+        
+        p {
+            margin-bottom: 4em;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        
+        a:hover {
+            color: lightgray;
+        }
