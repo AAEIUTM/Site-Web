@@ -140,7 +140,7 @@
             position: relative;
             text-align: justify;
             z-index: -1;
-            width: 1525px;
+            width: 1680px;
         }
         
         .contenufermer {
@@ -150,7 +150,7 @@
             position: relative;
             text-align: justify;
             z-index: -1;
-            width: 1675px;
+            width: 1830px;
         }
         
         .open-button {
@@ -191,7 +191,7 @@
             background: #f1f1f1;
             resize: none;
             min-height: 200px;
-            width: 265px;
+            width: 470px;
         }
         /* When the textarea gets focus, do something */
         
@@ -379,4 +379,8 @@
         
         .confirmer>.ld {
             font-size: initial
+        }
+        
+        div#menu {
+            display: block;
         }
