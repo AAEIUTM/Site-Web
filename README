@@ -1,11 +1,16 @@
 Page de l'Association des Anciens Élèves de l'École de l'IUT de Metz
 (ou A.A.E.I.U.T.M.)
 
+Version WIP actuelle: v.05.27.01 :
+-En cours d'ajout d'une page profil
+-Ajout de photo de profil
+-Ajout d'une bannière de profil
 
-Version actuelle: v.05.26.14 :
+
+Version : v.05.26.14 :
 -Ajout du template des pages dans emplois
 
-Version actuelle: v.05.25.23 :
+Version : v.05.25.23 :
 -Ajout d'une page inscription
 -Ajout d'une page connection
 -Version affichée dans about.html ainsi que dans ce readme
