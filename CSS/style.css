@@ -7,7 +7,7 @@
             background: #1c1d22;
             display: none;
         }
-        
+
         #menu ul li a {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             list-style-type: none;
@@ -22,7 +22,7 @@
             color: #bdbdbd;
             transition: color 0.1s;
         }
-        
+
         .testul {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             color: #cecece;
@@ -42,7 +42,7 @@
             bottom: 0;
             overflow: hidden;
         }
-        
+
         body.contour {
             font-family: 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
             overflow: hidden;
@@ -52,7 +52,7 @@
             overflow-x: hidden;
             overflow-y: scroll;
         }
-        
+
         header.tete {
             position: fixed;
             top: 0;
@@ -63,7 +63,7 @@
             color: hsl(237, 9%, 60%);
             background: #1c1d22;
         }
-        
+
         .conteneur {
             overflow-y: hidden;
             overflow-x: hidden;
@@ -71,19 +71,19 @@
             overflow: hidden;
             z-index: 100;
         }
-        
+
         .conteneur img {
             height: 50px;
             padding-top: 10px;
             cursor: pointer;
         }
-        
+
         .conteneur #banner {
             height: 72px;
             padding-top: 10px;
             cursor: pointer;
         }
-        
+
         div .profil {
             text-align: right;
             position: absolute;
@@ -94,16 +94,16 @@
             padding-top: 12px;
             padding-right: 65px;
         }
-        
+
         .profil li {
             list-style-type: none;
         }
-        
+
         .profil a {
             text-decoration: none;
             color: #FFFFFF;
         }
-        
+
         .profil ul {
             text-align: right;
             position: absolute;
@@ -112,19 +112,19 @@
             right: 135px;
             white-space: nowrap;
         }
-        
+
         .flecheMenu {
             transform-origin: 10% 60%;
             transition: all 0.4s ease;
         }
-        
+
         header .menu img {
             position: absolute;
             left: 0;
             margin-top: 12px;
             margin-left: 65px;
         }
-        
+
         .ligneverticale {
             border-left: 2px solid white;
             position: absolute;
@@ -132,7 +132,7 @@
             height: inherit;
         }
         /* Juste a check left et width */
-        
+
         .contenuouvert {
             top: 90px;
             left: 185px;
@@ -140,9 +140,9 @@
             position: relative;
             text-align: justify;
             z-index: -1;
-            width: 1525px;
+            width: 1680px;
         }
-        
+
         .contenufermer {
             top: 90px;
             left: 35px;
@@ -150,9 +150,9 @@
             position: relative;
             text-align: justify;
             z-index: -1;
-            width: 1675px;
+            width: 1830px;
         }
-        
+
         .open-button {
             background-color: #1c1d22;
             color: white;
@@ -166,7 +166,7 @@
             width: 280px;
         }
         /* The popup chat - hidden by default */
-        
+
         .chat-popup {
             display: none;
             position: fixed;
@@ -176,14 +176,14 @@
             z-index: 9;
         }
         /* Add styles to the form container */
-        
+
         .form-container {
             width: 500px;
             padding: 10px;
             background-color: #1c1d22;
         }
         /* Full-width textarea */
-        
+
         .form-container textarea {
             padding: 15px;
             margin: 5px 0 22px 0;
@@ -194,13 +194,13 @@
             width: 265px;
         }
         /* When the textarea gets focus, do something */
-        
+
         .form-container textarea:focus {
             background-color: #ddd;
             outline: none;
         }
         /* Set a style for the submit/send button */
-        
+
         .form-container .btn {
             background-color: #163a18;
             color: white;
@@ -212,12 +212,12 @@
             opacity: 0.8;
         }
         /* Add a red background color to the cancel button */
-        
+
         .form-container .cancel {
             background-color: #420f0f;
         }
         /* Add some hover effects to buttons */
-        
+
         .form-container .btn:hover,
         .open-button:hover {
             opacity: 1;
@@ -226,7 +226,7 @@
         /*               * {
             box-sizing: border-box;
         } */
-        
+
         body.inscription {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #2a2b30;
@@ -239,22 +239,22 @@
             overflow-x: hidden;
             overflow-y: hidden;
         }
-        
+
         h1#titreinscription {
             font-weight: bold;
         }
-        
+
         span {
             font-size: 20px;
         }
-        
+
         a.btn-co {
             color: #333;
             text-decoration: none;
             font-size: 14px;
             margin: 15px 0;
         }
-        
+
         .conteneur inscription {
             background: #fff;
             border-radius: 10px;
@@ -265,7 +265,7 @@
             min-height: 500px;
             position: relative;
         }
-        
+
         .form-container form {
             background: #fff;
             display: flex;
@@ -276,11 +276,11 @@
             align-items: center;
             text-align: center;
         }
-        
+
         .social-container {
             margin: 20px 0px;
         }
-        
+
         .social-container a {
             border: .4px solid rgb(204, 180, 180);
             border-radius: 50%;
@@ -291,12 +291,12 @@
             width: 40px;
             height: 40px;
         }
-        
+
         .social-container a:hover {
             background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
             transition: 1s;
         }
-        
+
         .form-container input {
             background: #eee;
             border: none;
@@ -307,15 +307,15 @@
             margin: 10px;
             width: 100%;
         }
-        
+
         .form-container input:focus {
             border: 1px solid black;
         }
-        
+
          ::placeholder {
             color: #000;
         }
-        
+
         button.confirmer {
             background: linear-gradient(90deg, #1d953f 0%, #209542 20.343056921228012%, #4dde76 20.343056921228012%, #4dde76 100%);
             outline: none;
@@ -336,21 +336,21 @@
             font-weight: 100;
             font-style: normal
         }
-        
+
         button.confirmer:active {
             transform: scale(0.95);
         }
-        
+
         button.confirmer.ghost {
             background: transparent;
             border-color: white;
         }
-        
+
         div.conteneurinscription {
             margin-left: 540px;
             margin-top: 107px;
         }
-        
+
         .confirmer>div {
             color: #999999;
             font-size: 10px;
@@ -360,7 +360,7 @@
             text-align: center;
             margin: 0px 0px 0px 0px
         }
-        
+
         .confirmer>i {
             color: #6ec286;
             font-size: 1em;
@@ -376,7 +376,7 @@
             width: 17px;
             height: 17px
         }
-        
+
         .confirmer>.ld {
             font-size: initial
         }
