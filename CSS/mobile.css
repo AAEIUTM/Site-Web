@@ -1,22 +1,22 @@
-    div#menu {
-    display: none;
-}
-
-.contenufermer {
-    top: 90px;
-    left: 185px;
-    display: block;
-    position: relative;
-    text-align: justify;
-    z-index: -1;
-    width: 1680px;
-}
-
-.contenuouvert {
-    top: 90px;
-    left: 35px;
-    display: block;
-    position: relative;
-    text-align: justify;
-    z-index: -1;
-    width: 1830px;
+        div#menu {
+        display: none;
+    }
+    
+    .contenufermer {
+        top: 90px;
+        left: 185px;
+        display: block;
+        position: relative;
+        text-align: justify;
+        z-index: -1;
+        width: 1680px;
+    }
+    
+    .contenuouvert {
+        top: 90px;
+        left: 35px;
+        display: block;
+        position: relative;
+        text-align: justify;
+        z-index: -1;
+        width: 1830px;
