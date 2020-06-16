@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>AAEIUTM - Connection</title>
+    <title>AAEIUTM - FAQ</title>
     <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico' />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <script src="../JS/script.js"></script>
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=max-device-width, initial-scale=1" />
 </head>
 
-<body class="inscription">
+<body class="contour">
 
     <div class="conteneur">
         <header class="tete">
@@ -68,26 +68,57 @@
             </form>
         </div>
 
-        <section class="contenufermer" id="contenu">
+        <section class="contenuouvert" id="contenu">
 
-            <div class="conteneurinscription" id="conteneurinscription">
-                <div class="form-container sign-up-container">
-                    <form action="#">
-                        <h1 id="titreinscription">Se connecter</h1>
-                        <div class="social-container">
-                            <a target="_blank" class="btn-co" href="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v7.0" class="social"><i class="fab fa-facebook-f"></i></a>
-                            <a target="_blank" class="btn-co" href="https://accounts.google.com/signin/oauth/" class="social"><i class="fab fa-google-plus-g"></i></a>
-                            <a target="_blank" class="btn-co" href=" https://api.linkedin.com/v2/me" class="social"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                        <input type="text" placeholder="Identifiant (ou E-mail)" />
-                        <input type="password" placeholder="Mot de passe" />
-                        <button type="submit" class="confirmer">Confirmer<div></div><i class="fa fa-check"></i></button>
-                        </br>
-                        <h3>Pas encore inscrit ? <a href="login.html">S'inscrire</a></h3>
-                        <h3>MDP ou ID oublié ? <a target="_blank" href="aide.html ">Nous contacter</a></h3>
-                    </form>
-                </div>
+          <div class="fiche">
 
+          <h1 id="titreFAC" class="banniere">- Bienvenue sur l'acceuil du site -</h1>
+          <h2 id="mess1">Ici vous pouvez nous contacter ou choisir une question si dessous pour résoudre vos problèmes :</h2>
+
+          <ul id="liste_question">
+            <li><a href="">Problème d'affichage :</a></li>
+            <ul>
+              <li><a href="">Mon ecran s'affiche bizarrement.</a> </li>
+              <li><a href="">Problème survenu à l'affichage de l'inscription.</a> </li>
+              <li><a href="">Le chat n'apparaît pas.</a> </li>
+              <li><a href="">Je ne peux pas accéder aux contacts.</a> </li>
+            </ul>
+            <p> </p>
+            <li><a href="">Problème d'identification :</a> </li>
+            <ul>
+              <li><a href="">Mon mot de passe est incorrect.</a> </li>
+              <li><a href="">Mon identifiant n'existe pas.</a> </li>
+              <li><a href="">Je n'arrive pas à changer de mot de passe.</a> </li>
+            </ul>
+            <p> </p>
+            <li><a href="">Les évènements :</a></li>
+            <ul>
+              <li><a href="">A quand les prochains évènement ?</a> </li>
+              <li><a href="">Comment puis-je participer à un évènement ? </a> </li>
+              <li><a href="">Les évènements sont accecible à tout les étudiants de l'AAEIUTM ?</a> </li>
+            </ul>
+          </ul>
+
+          <input id="question" type="text" name="Question" /> <button type="button" name="button">Envoyer</button>
+
+          <footer>
+            <p>
+            <strong>
+              <small>Département Informatique de l'IUT de Metz</small>
+            </strong>
+            <a href="https://twitter.com/iutinfometz">
+              <img width="16" alt="suivez-nous sur twitter" src="../medias/images/twitter.png">
+            </a>
+            <a  href="http://www.linkedin.com/groups/D%C3%A9partement-Informatique-IUT-Metz-4911255/about">
+              <img id='img2' width="16" alt="Etudiants ou anciens, adhérez à notre groupe LinkedIn !" src="../medias/images/linkedin-icone-4058-16.png">
+            </a>
+            <a id='lesidees'alt='Proposer vos idées' class="footer" href="https://github.com/AAEIUTM/Site-Web"> Aidez-nous a Améliorer le site </a>
+            <a id='nouscontacter' class="footer" href="about.html"> Nous Contacter </a>
+            </p>
+          </footer>
+
+
+          </div>
 
         </section>
         </div>
